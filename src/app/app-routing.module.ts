@@ -11,6 +11,7 @@ import { ContatoComponent } from './contato/contato.component';
 
 export const routes: Routes = [
 
+  {path: '', component: HomeComponent},
   {path: 'home', component: HomeComponent},
   {path: 'empresa', component: EmpresaComponent},
   {path: 'servicos', component: ServicosComponent},

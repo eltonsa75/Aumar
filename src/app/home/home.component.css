@@ -1,26 +1,77 @@
-.container_full {
+.container_full{
+    margin: 0 auto;
     width: 100%;
-    margin-top: 80px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    font-weight: 200px;
-    background-color: #48a5ac;
-    color: white;
-    padding: 30px;
+    padding-left: 225px;
+    padding-bottom: 20px;
 }
 
-.tEmpresa {
+.container_atuacao{
+    width: 100%;
+}
+
+.tHome {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     color: #48a5ac;
-    padding-left: 550px;
-    padding-top: 20px;
+    text-align: center;
 }
 
-.textoEmpresa {
+.tAtuacao {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    color: #CCC;
-    padding-left: 550px;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    background-color: #48a5ac;
+    padding: 30px;
+}
+
+.container_meio {
+    margin: 0 auto;
+    width: 78%;
+    height: 320px;
+    
+}
+
+.Tesquerda{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color:white;
+    background-color: #48a5ac;
+}
+
+.container_left {
+    position:relative;
+    width: 700px;
+    height: 30px;   
+    float: left;
+    
+}
+
+.container_centro {
+    position:relative;
+    width: 133px;
+    height: 30px;   
+    float: left;
+    
+}
+
+.Tdireita{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background-color: #224370;
+}
+
+.container_right {
+    position:relative;
+    width: 650px;
+    height: 300px;
+    float: right;
+  
+}
+
+.img{
+    padding: 5px;
 }

@@ -52,3 +52,11 @@
    margin-top: 50px;
    padding-left: 10px;
 }
+
+a:hover, .active {
+    color:#00ff00!important;
+}
+
+
+
+ 

@@ -11,8 +11,8 @@ import { HomeComponent } from './home/home.component';
 import { RodapeComponent } from './rodape/rodape.component';
 import { EmpresaComponent } from './empresa/empresa.component';
 import { ServicosComponent } from './servicos/servicos.component';
-import { PorfolioComponent } from './porfolio/porfolio.component';
 import { ContatoComponent } from './contato/contato.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -22,8 +22,8 @@ import { ContatoComponent } from './contato/contato.component';
     RodapeComponent,
     EmpresaComponent,
     ServicosComponent,
-    PorfolioComponent,
-    ContatoComponent
+    ContatoComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
